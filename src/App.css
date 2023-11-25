@@ -1,0 +1,60 @@
+h1, h2, li{
+  color: #FFFFFF;
+}
+
+button{
+  background-color: #4CAF50;
+  color: #ffffff;
+
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+input{
+  height: 43px;
+  border-radius: 10px;
+  border: none;
+}
+
+li{
+  margin: 10px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  word-wrap: break-word;
+}
+
+.listaDeTarefas{
+  background-color: (255, 255, 255, 0.356);
+  
+}
+
+.centralDiv{
+  margin-top: 45px;
+}
+
+.divTarefas{
+  background-color: rgba(78, 78, 78, 0.507);
+  border-radius: 15px;
+}
+
+.deleteButton{
+  font-size: 20px;
+  background-color: rgba(175, 76, 76, 0);
+  
+}
+
+.deleteButton:hover{
+  box-shadow: 0 0 5px rgb(214, 46, 46);
+}
+
+.divBotao{
+  display: inline-block;
+  text-align: right;
+  
+}
